@@ -145,8 +145,8 @@ export default function DesktopGamePage() {
             </tbody>
           </table>
           <div style={{ textAlign: 'center'}}>
-            <button onClick={() => setPage(1)} style={{ ...buttonStyle, width: '200px', marginRight:'1rem' }}>이전</button>
-            <button onClick={() => setPage(3)} style={{ ...buttonStyle, width: '200px' }}>결과 보기</button>
+            <button onClick={() => setPage(2)} style={{ ...buttonStyle, width: '200px', marginRight:'1rem' }}>이전</button>
+            <button onClick={() => setPage(4)} style={{ ...buttonStyle, width: '200px' }}>결과 보기</button>
           </div>
         </div>
       )}
